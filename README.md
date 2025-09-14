@@ -10,6 +10,11 @@ This is a module for [AzerothCore](http://www.azerothcore.org) that adds new bev
 * Ochota Krepkoe - get drunk and teleport to random place
 * Take Me Home! - teleport to your home, no question asked
 
+To spawn a vendor write command:
+```
+.npc add 313100
+```
+
 ## Requirements
 
 Beer Master module currently requires:
