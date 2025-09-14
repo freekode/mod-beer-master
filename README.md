@@ -7,7 +7,7 @@ This is a module for [AzerothCore](http://www.azerothcore.org) that adds new bev
 
 **Current list of items**
 
-* Ochota Krepkoe - get drunk and teleport to random place
+* Ale-Porter - get drunk and teleport to random place
 * Take Me Home! - teleport to your home, no question asked
 
 To spawn a vendor write command:
