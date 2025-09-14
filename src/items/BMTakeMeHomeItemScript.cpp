@@ -12,7 +12,7 @@ bool ModBeerMaster_TakeMeHome_ItemScript::OnUse(Player *player, Item *item, cons
 
     player->TeleportTo(player->m_homebindMapId, player->m_homebindX, player->m_homebindY, player->m_homebindZ, player->GetOrientation());
     BMSchedule(player, 1s,
-               [player, this]
+               [player]
                {
                    player->HandleEmoteCommand(EMOTE_ONESHOT_CRY);
                    player->TextEmote("cries");
